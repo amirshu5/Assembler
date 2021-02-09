@@ -1,0 +1,35 @@
+#ifndef MAMAN14_CONSTANTS_H
+#define MAMAN14_CONSTANTS_H
+
+#include <limits.h>
+
+#define LINE_LENGTH 80
+#define ERROR INT_MIN
+#define TRUE 1
+#define FALSE -1
+#define NO_LABEL "NO_LABEL"
+#define ILLEGAL 0
+#define LEGAL 1
+#define LEGAL_FIRST_WORD 2
+#define IS_EXIST 1
+#define IS_EXTERN 3
+#define DATA 1
+#define STRING 2
+#define ENTRY 4
+#define START_POSITION 100
+#define NOT_USED_INT INT_MIN
+#define NOT_USED_STRING "not_used"
+#define IMMEDIATE_ADDRESSING 0
+#define DIRECT_ADDRESSING 1
+#define INDIRECT_REGISTER_ADDRESSING 2
+#define DIRECT_REGISTER_ADDRESSING 3
+#define OPERATION_WORD 4
+#define WORD_LENGTH 15
+#define BITS_FOR_ARG_VALUE 12
+#define NUM_OF_REGISTERS 8
+#define OCTAL_LENGTH 5
+#define SRC_REG_START 6
+#define SRC_REG_END 8
+#define DEST_REG_START 9
+#define DEST_REG_END 11
+#endif
